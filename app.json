@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Ruchi Bill Book",
+    "slug": "ruchi-bill-book",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.ruchi.billbook",
+      "permissions": [
+        "CAMERA",
+        "READ_MEDIA_IMAGES",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-image-picker"
+    ]
+  }
+}
